@@ -139,10 +139,13 @@ public class login extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(26, 26, 26)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(email, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(22, 22, 22)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(22, 22, 22))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(email)
+                        .addGap(18, 18, 18)))
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(password, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -180,16 +183,18 @@ public class login extends javax.swing.JFrame {
            String userEmail =email.getText();
            String userPass = password.getText();
            
-           String sql = "SELECT * FROM admin WHERE mail='"+userEmail+"'&& password = '"+userPass+"'";
+           String sql = "SELECT * FROM ADMIN WHERE mail='"+userEmail+"'&&password = '"+userPass+"'";
            
            rs = stmt.executeQuery(sql);
            if(rs.next()){
-               JOptionPane.showMessageDialog(null, "Password or Email is invaild");
-           }
-           else{
+               
                setVisible(false);
                home object = new home();
                object.setVisible(true);
+               
+           }
+           else{
+               JOptionPane.showMessageDialog(null, "Password or Email is invaild");
            }
     }catch(HeadlessException  | SQLException e){
         JOptionPane.showMessageDialog(null, e);

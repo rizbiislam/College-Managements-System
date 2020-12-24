@@ -28,7 +28,7 @@
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
@@ -51,73 +51,91 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" attributes="0">
-                  <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                      <Component id="jLabel3" alignment="0" max="32767" attributes="0"/>
-                      <Component id="jLabel2" alignment="0" max="32767" attributes="0"/>
-                      <Component id="jLabel4" alignment="0" max="32767" attributes="0"/>
-                      <Component id="jLabel6" alignment="0" pref="137" max="32767" attributes="0"/>
-                      <Component id="jLabel1" alignment="0" min="-2" pref="118" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace pref="193" max="32767" attributes="0"/>
-              </Group>
-              <Group type="102" attributes="0">
-                  <EmptySpace min="-2" pref="184" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                      <Component id="initial" pref="150" max="32767" attributes="0"/>
-                      <Component id="email1" alignment="0" max="32767" attributes="0"/>
-                      <Component id="question1" alignment="0" max="32767" attributes="0"/>
-                      <Component id="ans1" alignment="0" max="32767" attributes="0"/>
-                      <Component id="Name" alignment="0" max="32767" attributes="0"/>
-                  </Group>
-                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-              </Group>
-              <Group type="102" alignment="1" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jButton5" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace max="32767" attributes="0"/>
-                  <Component id="jButton1" min="-2" pref="85" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
-                  <Component id="jButton2" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jButton5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace pref="37" max="32767" attributes="0"/>
+                          <Component id="jButton1" min="-2" pref="85" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                          <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="jLabel3" alignment="1" min="-2" pref="137" max="-2" attributes="0"/>
+                                  <Component id="jLabel6" alignment="1" min="-2" pref="137" max="-2" attributes="0"/>
+                                  <Component id="jLabel2" alignment="1" min="-2" pref="137" max="-2" attributes="0"/>
+                                  <Component id="jLabel4" alignment="1" min="-2" pref="137" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jLabel5" alignment="0" min="-2" pref="103" max="-2" attributes="0"/>
+                              <Component id="jLabel1" alignment="0" min="-2" pref="118" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="Name" min="-2" pref="155" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Component id="question1" max="32767" attributes="0"/>
+                                      <Component id="initial" alignment="0" pref="155" max="32767" attributes="0"/>
+                                      <Component id="email1" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="ans1" alignment="1" max="32767" attributes="0"/>
+                                      <Component id="Pass" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Name" alignment="3" min="-2" pref="33" max="-2" attributes="0"/>
                       <Component id="jLabel4" alignment="3" min="-2" pref="21" max="-2" attributes="0"/>
-                      <Component id="Name" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="initial" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
                       <Component id="jLabel1" alignment="3" min="-2" pref="17" max="-2" attributes="0"/>
-                      <Component id="initial" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="email1" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
                       <Component id="jLabel2" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
-                      <Component id="email1" alignment="3" max="32767" attributes="0"/>
                   </Group>
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jLabel3" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
-                      <Component id="question1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jLabel5" min="-2" pref="24" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Component id="Pass" min="-2" pref="33" max="-2" attributes="0"/>
+                          <EmptySpace min="1" pref="1" max="-2" attributes="0"/>
+                      </Group>
                   </Group>
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="ans1" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jLabel6" alignment="3" min="-2" pref="19" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" pref="20" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="question1" pref="33" max="32767" attributes="0"/>
+                      <Component id="jLabel3" max="32767" attributes="0"/>
                   </Group>
-                  <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="ans1" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                      <Component id="jLabel6" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jButton1" alignment="3" max="32767" attributes="0"/>
-                      <Component id="jButton2" alignment="3" max="32767" attributes="0"/>
-                      <Component id="jButton5" max="32767" attributes="0"/>
+                      <Component id="jButton5" alignment="3" pref="36" max="32767" attributes="0"/>
                   </Group>
-                  <EmptySpace min="-2" pref="55" max="-2" attributes="0"/>
+                  <EmptySpace pref="22" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -220,6 +238,16 @@
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
           </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="12" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Password"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="Pass">
         </Component>
       </SubComponents>
     </Container>
